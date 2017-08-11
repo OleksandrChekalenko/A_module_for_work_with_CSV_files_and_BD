@@ -1,7 +1,4 @@
-
 import java.time.LocalDate;
-
-import java.util.Arrays;
 import java.util.List;
 
 public class Customers {
@@ -13,7 +10,7 @@ public class Customers {
     public Customers() {
     }
 
-    public Customers(int id, String name, String address, String gender, String phoneNumber, String dateOfBirth,List<Items> lastPurchases, LocalDate dateOfLastPurchase) {
+    public Customers(int id, String name, String address, String gender, String phoneNumber, String dateOfBirth, List<Items> lastPurchases, LocalDate dateOfLastPurchase) {
         this.id = id;
         this.name = name;
         this.address = address;

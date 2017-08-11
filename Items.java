@@ -1,14 +1,9 @@
 import java.time.LocalDateTime;
 
-/**
- * Created by Cagy on 8/9/2017.
- */
 public class Items {
 
-    private int id;
-    private String title;
-    private int code;
-    private String producer;
+    private int id, code;
+    private String title, producer;
     private LocalDateTime dateOfLastUpdate;
 
     public Items() {
